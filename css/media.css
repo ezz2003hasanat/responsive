@@ -1,0 +1,162 @@
+/* small-device */
+@media (max-width: 575.98px) {
+  .body-home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    text-align: center;
+  }
+  .bar {
+    display: block !important;
+  }
+  .icone-menu {
+    position: relative;
+  }
+  .list {
+    position: absolute;
+    right: 20px;
+  }
+  .list li:hover {
+    background-color: #2a9466;
+    color: white;
+  }
+  .icone-menu:hover .list {
+    display: block;
+    width: 200px;
+    height: 180px;
+    background-color: #ffffff;
+  }
+  .name-input {
+    text-align: left;
+  }
+  .img-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head-form{
+    width: 80%;
+    padding: 10px;
+    text-align: justify;
+  }
+  .name-email-forms{
+    display: block;
+  }
+  .name-form ,.email-address-form {
+    width: 100%;
+  }
+  .send-message-btn{
+    text-align: end;
+  }
+  .perfect-design {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-what-we-do {
+    display: block;
+    width: 100%;
+  }
+  .statistics-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+  }
+  .design-step {
+    padding: 15px 0px;
+  }
+  .test-stip {
+    padding: 15px 0px;
+  }
+  .publishing-step {
+    padding: 15px 0px;
+  }
+  .users {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-users-middle {
+    display: none;
+  }
+  .about-users {
+    display: none;
+  }
+ .custom-box {
+    padding: 15px 0px;
+    
+  }
+  .about-users-1{
+    width: 80%;
+  }
+  .work-for-you-boxes {
+    flex-direction: column;
+  }
+  .social-media-contact {
+    flex-direction: column;
+  }
+  .for-you-box{
+    padding:15px 0px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-footer {
+    flex-direction: column;
+  }
+  .footer-links {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .to-go-nav {
+    display: none;
+  }
+}
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 992px) {
+  .box-what-we-do {
+    flex-wrap: wrap;
+  }
+  .doc-support-boxes {
+    padding: 10px 0px;
+  }
+  .well-document {
+    padding: 15px 0px;
+  }
+  .suppor-box {
+    padding: 15px 0px;
+  }
+  .custom-box {
+    padding: 15px 0px;
+    
+  }
+  .community-box {
+    padding: 15px 0px;
+  }
+  .statistics-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ratings-box {
+    padding: 30px 30px;
+  }
+  .installs-box {
+    padding: 30px 30px;
+  }
+  .weekly-download-box {
+    padding: 30px 30px;
+  }
+  .total-download-box {
+    padding: 30px 30px;
+  }
+  .about-users-middle {
+    display: none;
+  }
+}
